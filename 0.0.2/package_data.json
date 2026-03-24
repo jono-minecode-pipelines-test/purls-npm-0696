@@ -1,0 +1,53 @@
+{
+    "name": "-global-styles-react-app",
+    "private": false,
+    "version": "0.0.2",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@vitejs/plugin-react": "^3.1.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.2.0"
+    },
+    "_id": "-global-styles-react-app@0.0.2",
+    "dist": {
+        "shasum": "6fec7613e8b1df0f5eb6b09e9279d78e04b403a7",
+        "integrity": "sha512-jWhANVOizT47bgaG9ABa+iMYtasPaEWS97tzbbu6HFQUfOf/zd/qY5BW3nAV5g/C1p4LbHqox0TFRHIYfG2ibw==",
+        "tarball": "https://registry.npmjs.org/-global-styles-react-app/-/-global-styles-react-app-0.0.2.tgz",
+        "fileCount": 15,
+        "unpackedSize": 9294,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQDOhqJO/VwA4YwO3C0LQrzc+8SweuEy89JR7U2o7t9/0AIgVPe4RytrLEexCsl6tjloY2itcAOyUQRJOXTyi061fgc="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkI+V/ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmoc5RAAoCLpHbQsYlmYTcgNI8LibjBA1qfbavlVTtRL2McolPVYbvKl\r\nVyCfdB1aZb0YEkbbxqX6jtb06svM3t+FmSg5v1ESB3OQB/rMKzzXbgUOtqHm\r\nRxPc2rNEakJZ+PyRhMrTc2gJkrUt1U7eUR6o+6JKiak8kn1TCl/A3RNQAYmn\r\nKGRmJL8uaQQ6sLFUiY37OFSHvCG0LWPRs4XcX1PYPuW3BkvsrTH7qsky8TjO\r\nU/iQbY24UUbI/Bf4tDCRzWvCRNSZmtXsxUoRPoMCoLLZBZNd9oCU6NMle+2e\r\ngpl87vuIOhddK9db8O4nufG4YyDGXVbYFrW/XjaKt/+BtyolTzYWirC1gNMu\r\nmXfSVCUHyj0iDp21rJDgwQ0OYx1ZZhO1rBl0urr/MVZjKWAuUOYojNpG+mvh\r\nJ1EqFzXYEHyA32sKQwPQvbMbA7JtXfxqjKPg/oxfFz5CyjLVjKIHYRB0DhP3\r\nabK4+Ys8HtcYRvRFIxjvinXB0rbFm7h6b07FbgpgC/La707JoI5A4PmK2yQA\r\nLxUKelqQWxrn0/tCg3jPITKvrA19yRR2pIVr2Pe/wK8rymvAkEDAe+vgh290\r\n4ywQ8lJcO3Vt8/BW4EcNvc0rs6whx8U57TtlgHQXapIjBdDWINgoj+VagFQw\r\nzg5MOsH6t8jHLaiIPtKrKd5tMh6qWyuznAs=\r\n=YeqT\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "_npmUser": {
+        "name": "eliadt",
+        "email": "eliadt@wix.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "eliadt",
+            "email": "eliadt@wix.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-global-styles-react-app_0.0.2_1680074111570_0.5416773455663595"
+    },
+    "_hasShrinkwrap": false
+}

@@ -1,0 +1,55 @@
+{
+    "name": "007-danish-calculator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "007-danish-calculator": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "@types/node": "^20.12.2"
+    },
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "inquirer": "^9.2.17"
+    },
+    "_id": "007-danish-calculator@1.0.0",
+    "_nodeVersion": "21.6.2",
+    "_npmVersion": "10.5.0",
+    "dist": {
+        "integrity": "sha512-WmUbUHBYzmmNAtFvDyfRr3dmD60T3Un6ZkeskpsbjlqodDTAatQBCINVNtMFcVGvM9iJHTmFCNCuZUlmCv+xlw==",
+        "shasum": "82419df3eca35cb0fb94e4bd70413c72bca9f9e3",
+        "tarball": "https://registry.npmjs.org/007-danish-calculator/-/007-danish-calculator-1.0.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 15185,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQC5tUri6avUqJ3/WpLyMp0iIxY01DArEJGzZG0VwN0jOQIhAKyOqaYCXXZFqaqChqVxq/feZUkwyf0xVvlteGXMLEbZ"
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "danishnoor007",
+        "email": "kinzadani00@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "danishnoor007",
+            "email": "kinzadani00@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/007-danish-calculator_1.0.0_1711897321244_0.2481837443576318"
+    },
+    "_hasShrinkwrap": false
+}

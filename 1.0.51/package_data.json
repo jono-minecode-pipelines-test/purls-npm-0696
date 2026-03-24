@@ -1,0 +1,94 @@
+{
+    "name": "0.extends.vscode",
+    "displayName": "vscodeextends",
+    "description": "forlink",
+    "version": "1.0.51",
+    "engines": {
+        "vscode": "^1.54.3"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.linkcode"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.linkcode",
+                "title": "linkmklink"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.linkcode",
+                "key": "ctrl+f8",
+                "mac": "cmd+f8",
+                "when": "filesExplorerFocus"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "command": "extension.linkcode"
+                }
+            ],
+            "editor/title/context": [
+                {
+                    "command": "extension.linkcode"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "node ./test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.3",
+        "@types/mocha": "^8.0.4",
+        "@types/node": "^12.11.7",
+        "@types/vscode": "^1.54.3",
+        "eslint": "^7.19.0",
+        "glob": "^7.1.6",
+        "mocha": "^8.2.1",
+        "typescript": "^4.1.3",
+        "vscode-test": "^1.5.0"
+    },
+    "gitHead": "25f86a13174d287842c63e9c78c7cf8be35a67e9",
+    "_id": "0.extends.vscode@1.0.51",
+    "_nodeVersion": "14.16.0",
+    "_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (win32)",
+    "dist": {
+        "integrity": "sha512-8CHRSQ7T0TrQfSBX1EFoQ9fYV+LV6pkEf3+xhKFApfWY0Uf2YWooDt+kG95FdxPj5lLyqpcxaXfr3PQKrt5l/A==",
+        "shasum": "6c881aa8fc6b2461d7786997f0dc28e6f63f27f5",
+        "tarball": "https://registry.npmjs.org/0.extends.vscode/-/0.extends.vscode-1.0.51.tgz",
+        "fileCount": 17,
+        "unpackedSize": 20509,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg1wwzCRA9TVsSAnZWagAAk9UP/A4HqIYZCbTx5VQekTvJ\nTOR3eXG43ybljQdhwsyj2EthUzPuyT0+B/1hlDKQ4MieoXZCjLlnRRyCuLAN\n9cLM6VUglkCqyKaxbjgl61L80ICvBeTKFQdst+mKWYAjW9Xpebvjoa06VQKA\nmcw20zrr3iTd/B7H5v7baY6FjAnNgXvMiVxx1L8zwTozoHgdeFvHM0EpQveA\n5fFgMjiNdMiMTQjPzZ7QAJ1AXPGeWtIqls0dq8T9Xq3hc0e4/AKtm/LpyFfk\n86RT9y5StfGTheLguH64pib/EDELCEEH5t2Mp3CgVovaHANUz8wjfg7STbkO\nxdIo0lCjC2wNLueW+ZbvxgvOLaKIUwa7ehyaoHTJJJh7w3bJBIKjUOQxdjlQ\n1gMfnvKgm+tWQ+DamIvuX5vw6jOwLWrr3wiQ0F0Y501RSzWr638MHM8YIAwL\n7U2BDr+uKcjm5BPaklZhWJlsHf7h5iIyuasRRmlHti5ktdbs7d5yN3l3B6Dh\nPtGbysgzFMSQi2nauHt21NR6hHDVPyNsdeUKCeqHB3I9cj9r93RevWWqEYd3\nI1JtCOeJ8D9R8lv/m1Vy6nEUlwOBSCf6ClwVaV+yTRmmj/t42w3iMTmD0axo\nL0vY5KEqXGR5bqmq9U23g13LzcaxpOxkSK2E/CpSkc6HT4QDiWvYeaU1fO6E\nMe7d\r\n=X2lJ\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCIE+zIxEQ1YYd/29DkM2lRw4IkfuIp64OfiI8PgluRev1AiB9g2iOLoleBbAPNJOKslmOoBI7FjDq8y2sRT6ekgN7ng=="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "kitchens",
+        "email": "kitchens@qq.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "kitchens",
+            "email": "kitchens@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/0.extends.vscode_1.0.51_1624706099258_0.22136390804213235"
+    },
+    "_hasShrinkwrap": false
+}
